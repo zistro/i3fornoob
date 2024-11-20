@@ -1,0 +1,3 @@
+# Reboot the system
+reboot
+
