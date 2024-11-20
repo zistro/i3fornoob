@@ -5,9 +5,10 @@ I will try to make this as simple as possible.
 # Lesgooo 
 
 * Install an AUR helper. I will reccomend paru
-  '''
+  ```
   sudo pacman -S --needed base-devel
   git clone https://aur.archlinux.org/paru.git
   cd paru
   makepkg -si
-'''
+
+```
