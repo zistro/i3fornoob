@@ -1,6 +1,6 @@
 # i3fornoob
 This is intented for arch users. If you want to use this for another distro plz check if you package manager has these packages listed below.
-I will try to make this as simple as possible.
+I will try to make this as simple as possible.Then boot into i3wm then do the following.
 
 # Lesgooo 
 * Install i3wm with archinstall select i3 in profiles section and for audio select pipewire
@@ -15,4 +15,20 @@ I will try to make this as simple as possible.
 * Then install these
 
   ```
-  sudo pacman -S feh picom polybar kitty qimgv rofi nwg-look pavucontrol thunar btop neovim xcolor xclip git 
+  sudo pacman -S feh picom polybar kitty qimgv rofi nwg-look pavucontrol thunar btop neovim xcolor xclip git
+
+* Install these fonts
+  ```
+  sudo ttf-cascadia-code-nerd ttf-cascadia-mono-nerd ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-firacode-nerd ttf-iosevka-nerd ttf-iosevkaterm-nerd ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono autotiling
+
+* Then clone this repo
+  ```
+  git clone https://github.com/zistro/i3fornoob.git
+
+* Then copy everything in the .config folder. You should cut and paste the default config folder in a backup folder incase you get into some trouble.
+
+* Then reboot  
+
+
+
+    
