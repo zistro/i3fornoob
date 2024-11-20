@@ -25,7 +25,7 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
   ```
   git clone https://github.com/zistro/i3fornoob.git
 
-* Then copy everything in the .config folder. You should cut and paste the default config folder in a backup folder incase you get into some trouble.
+* Then copy everything in the .config folder and replace all. You should cut and paste the default config folder in a backup folder before copying my config files incase you get into some trouble.
 
 * Then reboot  
 
