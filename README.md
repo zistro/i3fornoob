@@ -33,6 +33,12 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 
 * Then copy folders in the .config folder and replace all. You should cut and paste the default config folder in a backup folder before copying my config files incase you get into some trouble.
 
+
+* You can install fish fish config is already set you just need to copy
+  ```
+  paru -S fish oh-my-posh
+
+
 * Then reboot  
 
 
