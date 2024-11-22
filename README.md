@@ -38,7 +38,11 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
   ```
   paru -S fish oh-my-posh
 
+* Change defualt shell
+  ```
+  chsh -s $(which zsh)
 
+  
 * Then reboot  
 
 
