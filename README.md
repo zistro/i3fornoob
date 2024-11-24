@@ -44,6 +44,13 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 
   
 * Then reboot
+
+
+* Copy theme.rasi from the rofi folder to ~/.local/share/rofi/themes/
+
+* You're done
+
+  
 # Hyprland
 
 
@@ -56,6 +63,9 @@ It should make it run just log out and login with hyprland. I have uploaded my h
 use mod+w to change wallpaper after first login with my config.
 
 # Preview
+* i3wm
+![screenshot_2024-11-24_21-21-18](https://github.com/user-attachments/assets/6067719b-9784-4483-bb79-73931b4dd33d)
+
 
 * hyprland 
 
@@ -66,8 +76,12 @@ use mod+w to change wallpaper after first login with my config.
 # Mentions
 
 
-*I took help from these repos
+*I used config frm these repos as my base and many thanks to them.
 
 [catppuccin](https://github.com/catppuccin/catppuccin)
+
+
 [simple-hyprland](https://github.com/gaurav210233/simple-hyprland)
+
+
 [Typrcraft](https://github.com/typecraft-dev/dotfiles)
