@@ -43,8 +43,17 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
   chsh -s $(which zsh)
 
   
-* Then reboot  
+* Then reboot
+# Hyprland
 
+
+Let's say you have been using i3wm for few days and want to try hyprland. You can use both. If you're in Arch just install these packages 
+
+```
+paru -S cliphist pamixer grimblast hyprland xdg-desktop-portal-hyprland waybar swww hyprcursor hyprutils hyprwayland-scanner power-profiles-daemon hyprpicker xdg-desktop-portal-wlr
+```
+It should make it run just log out and login with hyprland. I have uploaded my hyprland config here you can use this by copying the hypr folder in the .config folder
+use mod+w to change wallpaper after first login with my config.
 
 
     
