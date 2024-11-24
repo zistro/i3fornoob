@@ -76,7 +76,7 @@ use mod+w to change wallpaper after first login with my config.
 # Mentions
 
 
-*I used config frm these repos as my base and many thanks to them.
+*I used config from these repos as my base and many thanks to them.
 
 [catppuccin](https://github.com/catppuccin/catppuccin)
 
