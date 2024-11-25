@@ -40,7 +40,7 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 
 * Change defualt shell
   ```
-  chsh -s $(which zsh)
+  chsh -s $(which fish)
 
   
 * Then reboot
