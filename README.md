@@ -21,11 +21,11 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 * Then install these
 
   ```
-  sudo pacman -S feh picom polybar kitty qimgv rofi nwg-look pavucontrol thunar btop neovim xcolor xclip dunst
+  sudo pacman -S feh picom polybar kitty qimgv rofi nwg-look pavucontrol thunar btop neovim xcolor xclip dunst maim autotiling
 
 * Install these fonts
   ```
-  sudo pacman -S ttf-cascadia-code-nerd ttf-cascadia-mono-nerd ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-firacode-nerd ttf-iosevka-nerd ttf-iosevkaterm-nerd ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono autotiling noto-fonts-cjk
+  sudo pacman -S ttf-cascadia-code-nerd ttf-cascadia-mono-nerd ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-firacode-nerd ttf-iosevka-nerd ttf-iosevkaterm-nerd ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono noto-fonts-cjk
 
 * Then clone this repo
   ```
