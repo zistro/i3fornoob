@@ -64,7 +64,7 @@ use mod+w to change wallpaper after first login with my config.
 
 # Preview
 * i3wm
-![screenshot_2024-11-24_21-21-18](https://github.com/user-attachments/assets/6067719b-9784-4483-bb79-73931b4dd33d)
+![i3](https://github.com/user-attachments/assets/234d5fd6-89df-4f06-8504-bee2e72b3ce3)
 
 
 * hyprland 
