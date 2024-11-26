@@ -46,7 +46,7 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 * Then reboot
 
 
-* Copy theme.rasi from the rofi folder to ~/.local/share/rofi/themes/ and change the rofi theme theme from rofi themes option in the rofi menu
+* Copy theme.rasi to ~/.local/share/rofi/themes/ and change the rofi theme theme from rofi themes option in the rofi menu
 and save the new theme with alt+a
 * You're done
   
