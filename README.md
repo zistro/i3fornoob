@@ -21,7 +21,7 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 * Then install these
 
   ```
-  sudo pacman -S feh picom polybar kitty qimgv rofi nwg-look pavucontrol thunar btop neovim xcolor xclip dunst maim autotiling
+  sudo pacman -S feh picom polybar kitty viewnoir rofi nwg-look pavucontrol thunar btop neovim xcolor xclip dunst maim autotiling
 
 * Install these fonts
   ```
@@ -56,16 +56,23 @@ and save the new theme with alt+a
   ```
   sudo pacmaan -S ntfs-3g
   ```
+* Create a mount point in /mnt
+  ```
+  cd /mnt
+  ```
+  ```
+  sudo mkdir windir
+  ```
 * Then get the uuid of the partition you want to mount
  ```
 lsblk-f
 ```
-* Then edit this file and add your drive uuid like below
+* Then edit this file and add your drive uuid like below to mount at the previously created mounting point
  ```
 sudo nano /etc/fstab
 ```
  ```
- UUID=yourUUID /mnt/winpart ntfs defaults,x-gvfs-show 0 0 
+ UUID=yourUUID /mnt/windir ntfs defaults,x-gvfs-show 0 0 
  ```
 * Then unmount all drives and mount again if there's no error then you're good to go
   ```
