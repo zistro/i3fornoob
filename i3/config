@@ -47,7 +47,7 @@ bindsym F10 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 exec --no-startup-id picom -b
 
 # feh
-exec_always feh --bg-scale ~/.config/walls/asuka.png
+exec_always nitrogen --set-scaled ~/.config/walls/9.jpg 
 
 # xcolor
 bindsym $mod+Shift+x exec ~/.config/pick_color.sh
