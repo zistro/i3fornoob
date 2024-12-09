@@ -21,7 +21,7 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 * Then install these
 
   ```
-  sudo pacman -S nitrogen polybar kitty viewnior rofi nwg-look pavucontrol thunar btop neovim xcolor xclip dunst maim autotiling
+  sudo pacman -S nitrogen polybar kitty viewnior rofi nwg-look pavucontrol thunar tumbler btop neovim xcolor xclip dunst maim autotiling 
 
 * Install these fonts
   ```
