@@ -21,7 +21,7 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 * Then install these
 
   ```
-  sudo pacman -S feh picom polybar kitty viewnoir rofi nwg-look pavucontrol thunar btop neovim xcolor xclip dunst maim autotiling
+  sudo pacman -S nitrogen polybar kitty viewnior rofi nwg-look pavucontrol thunar btop neovim xcolor xclip dunst maim autotiling
 
 * Install these fonts
   ```
@@ -49,12 +49,25 @@ I will try to make this as simple as possible.Then boot into i3wm then do the fo
 * Copy theme.rasi to ~/.local/share/rofi/themes/ and change the rofi theme theme from rofi themes option in the rofi menu
 and save the new theme with alt+a
 * You're done
-  
+
+# About screen tearing in i3wm 
+* i3wm package does not include a compositor so you will get screen tearing. In order to fix this issue you can do two things
+* One is install a picom(compositor) and and use my config
+  ```
+  sudo pacman -S picom
+  ```
+* Second one is if you have nvdia card and proprietary driver install nvidia-settings and enable force full composition pipeline in X server display configuration part
+  and disable flipping in opengl setting
+  ```
+  paru -S nvidia-settings
+
+  ```   
+
 # Dual-booting and drive auto mounting
 * If your're dual-booting or you want to mount your other drives do these
 * First let's mount drive. For windows drives that use ntfs file system install this
   ```
-  sudo pacmaan -S ntfs-3g
+  sudo pacman -S ntfs-3g
   ```
 * Create a mount point in /mnt
   ```
