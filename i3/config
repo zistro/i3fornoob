@@ -46,7 +46,7 @@ bindsym F10 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 # picom
 exec --no-startup-id picom -b
 
-# feh
+# nitrogen
 exec_always nitrogen --set-scaled ~/.config/walls/9.jpg 
 
 # xcolor
